@@ -87,6 +87,18 @@ img {
   background-color: #2b99ff;
 }
 
+button:hover {
+  background: #0067C7;
+}
+
+button:active {
+  background: #00386C;
+}
+
+button:focus {
+  box-shadow: 0px 0px 0px 4px rgba(42, 153, 255, 0.2);
+  outline: 1px solid #2B99FF;
+}
 .form-input {
   display: inline-block;
   width: 332px;
@@ -110,6 +122,15 @@ input::placeholder {
   color: #b7b7b7;
 }
 
+input:hover {
+  border: 1px solid #4A4A4A;
+}
+
+input:focus {
+  outline: 1px solid #2B99FF;
+  box-shadow: 0px 0px 0px 4px rgba(42, 153, 255, 0.2);
+}
+
 /* Link */
 
 a {
@@ -120,4 +141,16 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
+}
+
+a:hover {
+  text-decoration:underline; 
+}
+
+a:active {
+  color: #00386C;
+}
+
+a:focus {
+  outline: 1px solid #2B99FF;
 }
